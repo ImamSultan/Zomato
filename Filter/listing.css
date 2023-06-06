@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background-color: #ebe9ea;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Section */
+header {
+    height: 60px;
+    background-color: #3b2632;
+}
+
+#brand {
+    float: left;
+    color: white;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#social {
+    float: right;
+}
+
+.socialLogo {
+    height: 50px;
+}
+
+#content {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.filter {
+    height: 50%;
+    width: 20%;
+    margin: 0% 0% 0px 5%;
+    border: 3px solid gray;
+}
+
+.filter-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 10px 25px 20px;
+}
+
+.filter-section {
+    margin: 45px 10px 25px 20px;
+    padding: 0;
+}
+
+.filter-section h3 {
+    font-size: 21px;
+}
+
+.filter-section>label {
+    font-size: 18px;
+    display: block;
+}
+
+/* Optional: Apply styling to the radio buttons */
+.filter-section input[type="radio"] {
+    margin-right: 5px;
+}
+
+.restContent {
+    position: relative;
+    width: 720px;
+    border: 2px solid;
+    padding: 0px 10px 0px 10px;
+    margin: 0% 10% 0% 10%;
+    
+}
+
+.heading {
+    font-size: 25px;
+    margin: 10px 0px 15px 0px;
+}
+
+.main-card {
+    display: inline-block;
+    margin: 0px 10px 30px 10px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 4px 4px 4px 1px rgb(159, 133, 133) ;
+}
+
+.main-card>img {
+    float: left;
+    border-radius: 8px;
+}
+
+.main-card>div>p {
+    padding: 0px 0 0px 190px;
+    margin: 10px 10px 20px 4px;
+}
+.main-card>div {
+    margin: 10px 10px 20px 40px;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+/* Footer Section */
+footer {
+    background-color: #3b2632;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footText {
+    font-size: 20px;
+}
+
+.footDiv {
+    display: inline-block;
+    width: 32%;
+    border-right: 2px solid white;
+}
+
+.noBorder {
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+}
